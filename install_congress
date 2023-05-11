@@ -5,3 +5,4 @@ sudo mkdir /srv/httpd/htdocs/congress
 sudo cp connect_congress.php /srv/httpd/htdocs/congress
 sudo cp congress.php /srv/httpd/htdocs/congress
 sudo cp congress.js /srv/httpd/htdocs/congress
+sudo cp capitol.ico /src/httpd/htdocs/congress
