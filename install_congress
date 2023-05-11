@@ -1,0 +1,7 @@
+#!/bin/sh
+tar -xvf congress.sql.tar.gz
+mysql -u www-user -p congress < congress.sql 
+sudo mkdir /srv/httpd/htdocs/congress
+sudo cp connect_congress.php /srv/httpd/htdocs/congress
+sudo cp congress.php /srv/httpd/htdocs/congress
+sudo cp congress.js /srv/httpd/htdocs/congress
